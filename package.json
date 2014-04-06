@@ -1,0 +1,38 @@
+{
+  "name": "mp4-parser",
+  "version": "0.3.0",
+  "description": "Streaming mp4 metadata parser",
+  "main": "mp4-parser.js",
+  "scripts": {
+    "test": "mocha test.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/mp4-info-parser.git"
+  },
+  "keywords": [
+    "mp4",
+    "m4a",
+    "mov",
+    "metadata",
+    "audio",
+    "parser"
+  ],
+  "author": "Jason Quense @theporchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/mp4-info-parser/issues"
+  },
+  "homepage": "https://github.com/theporchrat/mp4-info-parser",
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "stream-tokenizr": "^0.3.0",
+    "debuglog": "^1.0.1"
+  }
+}
