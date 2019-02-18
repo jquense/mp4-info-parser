@@ -114,7 +114,7 @@ Mp4Parser.prototype.parseIlstItem = function(name, len){
                 value = data[0];
             }
             else if(name == "tmpo") {
-                value = data.readInt8(0)
+                value = data.readUInt16BE(0)
             }
             else if(name === "covr") {
                 value = {
