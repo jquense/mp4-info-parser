@@ -57,6 +57,7 @@ describe("when parsing an audio file", function(){
                     tags['cnam'].should.equal('10 seconds of Silence')
                     tags['trkn'].should.equal('1/0')
                     tags['disk'].should.equal('1/2')
+                    tags['tmpo'].should.equal(150)
                     tags['covr'].should.have.deep.property('mime' ).that.equals('image/png')
                     tags['covr'].should.have.deep.property('data.length' ).that.equals(23867)
                     done()
